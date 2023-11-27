@@ -1,6 +1,8 @@
 # Lex and Yacc
 For basic information regarding regarding how Lex and Yacc works go [here](https://cse.iitkgp.ac.in/~bivasm/notes/LexAndYaccTutorial.pdf) .
 
+For viva questions go [here](./VivaQs/README.md)
+
 
 ### Yyparse function
 ---
