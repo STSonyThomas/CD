@@ -166,4 +166,15 @@ a   *
 ## <u>What is the difference b/w a lexeme and token?<u>
 
 A lexeme is the smallest unit in the source code that the compiler recognizes as a meaningful entity. A token is a pair consisting of a token name (category) and an optional attribute value. In simpler terms, a lexeme is a sequence of characters in the source code that matches the pattern for a token. A token is the combination of a token name and any associated value, representing a language construct recognized by the compiler.
+
 ---
+
+## <u>What is handle pruning?</u>
+
+- Handle pruning is a step in the context of bottom-up parsing techniques, particularly in LR parsing. LR parsing involves constructing a bottom-up parse tree for a given input string. A handle is a substring of the right side of a production rule that can be reduced to the nonterminal on the left side of the rule.
+
+- Handle pruning refers to the process of identifying and replacing a handle with the corresponding nonterminal during the construction of the parse tree. This step occurs during the reduction phase of LR parsing. The reduction involves replacing a sequence of symbols on the top of the parsing stack with the nonterminal that represents them.
+
+- In other words, handle pruning is the act of recognizing a valid substring in the input that matches a production rule and then reducing that substring to the nonterminal of the corresponding rule. This process continues until the entire input is reduced to the start symbol, indicating successful parsing.
+
+- Handle pruning is a crucial part of LR parsing algorithms, such as LR(0), SLR(1), LR(1), and LALR(1), where the parser uses a state machine to shift symbols onto the stack and reduce them when a handle is identified. The ability to recognize handles efficiently is fundamental to constructing a correct parse tree for the given input.
