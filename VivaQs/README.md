@@ -10,7 +10,7 @@ Operator Precedence Parser
 
 ---
 
-### <u>Explain how first and follow are found</u>
+## <u>Explain how first and follow are found</u>
 
   
 
@@ -66,7 +66,7 @@ These rules are fundamental in the construction of predictive parsers and are us
 
 ---
 
-### <u>What are the different forms of intermediate code?</u>
+## <u>What are the different forms of intermediate code?</u>
 
 Intermediate code is an abstraction that sits between the source code and the target code in a compiler. It is designed to facilitate the translation of high-level programming languages into machine code. There are various forms of intermediate code, and some common ones include:
 
