@@ -133,3 +133,30 @@ a   *
 ```
 
 ---
+
+##<u>What are the different phases of a compiler?</u>
+
+1. <u>Lexical Analysis (Scanner):</u>
+
+- **Input:** Source Code
+- The first phase involves breaking the source code into tokens, which are the smallest units of meaning (keywords, identifiers, operators, etc.). This process is carried out by the lexical analyzer or scanner.
+2. <u>Syntax Analysis (Parser):</u>
+
+- **Input:** Stream of Tokens
+- The parser analyzes the syntactic structure of the source code based on the sequence of tokens. It generates a hierarchical structure such as a syntax tree or abstract syntax tree (AST). This phase ensures that the source code adheres to the grammatical rules of the programming language.
+3. <u>Semantic Analysis:</u>
+
+- **Input:** Syntax Tree or AST
+- Semantic analysis checks for semantic errors and enforces language-specific rules that cannot be expressed in the grammar. It also involves creating a symbol table to manage identifiers and their attributes.
+4. <u>Intermediate Code Generation:</u>
+
+- **Input:** Syntax Tree or AST
+- The compiler generates an intermediate code representation that serves as an abstraction between the high-level source code and the target machine code. This intermediate code is designed to be independent of the source and target languages, facilitating optimization and code generation.
+5. <u>Code Optimization:</u>
+
+- **Input:** Intermediate Code
+- The compiler performs various optimization techniques on the intermediate code to improve the efficiency of the generated machine code. Optimization may include constant folding, loop optimization, and dead code elimination.
+6. <u>Code Generation:</u>
+
+- **Input:**: Intermediate Code
+- The compiler translates the optimized intermediate code into the target machine code. Code generation involves mapping the abstract operations in the intermediate code to the specific instructions of the target architecture.
