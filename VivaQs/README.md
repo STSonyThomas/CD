@@ -160,3 +160,10 @@ a   *
 
 - **Input:**: Intermediate Code
 - The compiler translates the optimized intermediate code into the target machine code. Code generation involves mapping the abstract operations in the intermediate code to the specific instructions of the target architecture.
+
+---
+
+## <u>What is the difference b/w a lexeme and token?<u>
+
+A lexeme is the smallest unit in the source code that the compiler recognizes as a meaningful entity. A token is a pair consisting of a token name (category) and an optional attribute value. In simpler terms, a lexeme is a sequence of characters in the source code that matches the pattern for a token. A token is the combination of a token name and any associated value, representing a language construct recognized by the compiler.
+---
