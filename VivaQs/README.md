@@ -134,7 +134,7 @@ a   *
 
 ---
 
-##<u>What are the different phases of a compiler?</u>
+## <u>What are the different phases of a compiler?</u>
 
 1. <u>Lexical Analysis (Scanner):</u>
 
