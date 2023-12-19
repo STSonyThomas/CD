@@ -8,4 +8,4 @@
 5. Show if the string has been accepted or not.
 
 ### <u>Step 1</u>
-![Step1](./pics/Screenshot%202023-12-19%20005540.png)
+<img src="./pics/Screenshot 2023-12-19 005540.png" alt="Step1Image" />
