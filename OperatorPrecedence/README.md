@@ -7,5 +7,4 @@
 4. Now I have to find out how to create a proper table that passes the above requirements.
 5. Show if the string has been accepted or not.
 
-### <u>Step 1</u>
-<img src="./pics/Step1.jpg" alt="Step1Image" />
+
