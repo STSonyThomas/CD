@@ -8,4 +8,4 @@
 5. Show if the string has been accepted or not.
 
 ### <u>Step 1</u>
-<img src="./pics/Screenshot 2023-12-19 005540.png" alt="Step1Image" />
+<img src="./pics/Step1.jpg" alt="Step1Image" />
