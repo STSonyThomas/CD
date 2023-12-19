@@ -1,0 +1,5 @@
++ a b t1
+- c d t2
+* e f t3
+/ g h t4
+= i   t5
