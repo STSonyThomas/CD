@@ -61,7 +61,7 @@ if((stack[top]=='$') && (ip[i]=='$')){
    break;
 }
 //checking if the input grammar requires a shift
-else if(opt[col][row][0]=='<'||opt[col][row]=='='){
+else if(opt[col][row][0]=='<'||opt[col][row][0]=='='){
    stack[++top]=opt[col][row][0];
    stack[++top]=ip[i];
    printf("Shift %c",ip[i]);
@@ -69,10 +69,11 @@ else if(opt[col][row][0]=='<'||opt[col][row]=='='){
 
 }
 //checking if the input grammar/string requires a reduce 
-else if(opt[col][row][0]='>'){
+else if(opt[col][row][0]=='>'){
    while(stack[top]!='<')--top;
-   top--;
+   stack[top]=ip[i];
    printf("reduce");
+   i++;
 }
 //if the string has neither a > or a < or an = then the string isnt accepted cause the characters in the string arent recognized
 else{
